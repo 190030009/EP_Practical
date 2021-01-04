@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Students_info>
+   <student eid="a">
+      <regno>170024</regno>
+      <name>A</name>    
+      <avg>92</avg>
+      <dob>15-08-2001</dob>  
+      <time>5:00 AM</time>       
+      <mobile no="7849984900"/>  		   
+      <distinction>YES</distinction>  
+  </student>
+  <student eid="b">
+      <regno>170025</regno>
+      <name>B</name>    
+      <avg>90</avg>
+      <dob>1-01-2001</dob>  
+      <time>7:30 AM</time>       
+      <mobile no="8849984900"/>  		   
+      <distinction>YES</distinction> 
+  </student>
+  <student eid="c">
+      <regno>170026</regno>
+      <name>C</name>    
+      <avg>80</avg>
+      <dob>11-09-2001</dob>  
+      <time>9:00 PM</time>       
+      <mobile no="9849984922"/>  		   
+      <distinction>YES</distinction> 
+  </student>
+  <student eid="d">
+      <regno>170027</regno>
+      <name>D</name>    
+      <avg>85</avg>
+      <dob>18-08-2001</dob>  
+      <time>12:00 AM</time>       
+      <mobile no="9849984921"/>  		   
+      <distinction>YES</distinction> 
+  </student>
+  <student eid="e">
+      <regno>170028</regno>
+      <name>E</name>    
+      <avg>80</avg>
+      <dob>20-10-2001</dob>  
+      <time>5:42 AM</time>       
+      <mobile no="9849984901"/>  		   
+      <distinction>YES</distinction> 
+  </student>
+</Students_info>
