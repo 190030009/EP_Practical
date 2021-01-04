@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT students_info (student)+>
+<!ELEMENT student (regno,name,avg,dob,time,mobileno,destination)>
+<!ELEMENT regno (#PCDATA)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT avg (#PCDATA)>
+<!ELEMENT dob (#PCDATA)>
+<!ELEMENT time (#PCDATA)>
+<!ELEMENT mobileno (#PCDATA)>
+<!ELEMENT destination (#PCDATA)>
+<!ATTLIST mobile no ID #REQUIRED>

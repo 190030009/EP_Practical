@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Students_info>
-   <student eid="a">
+<!DOCTYPE students_info SYSTEM "2.dtd">
+<students_info>
+<student>
       <regno>170024</regno>
       <name>A</name>    
       <avg>92</avg>
@@ -9,7 +10,7 @@
       <mobile no="7849984900"/>  		   
       <distinction>YES</distinction>  
   </student>
-  <student eid="b">
+  <student>
       <regno>170025</regno>
       <name>B</name>    
       <avg>90</avg>
@@ -18,7 +19,7 @@
       <mobile no="8849984900"/>  		   
       <distinction>YES</distinction> 
   </student>
-  <student eid="c">
+  <student>
       <regno>170026</regno>
       <name>C</name>    
       <avg>80</avg>
@@ -27,7 +28,7 @@
       <mobile no="9849984922"/>  		   
       <distinction>YES</distinction> 
   </student>
-  <student eid="d">
+  <student>
       <regno>170027</regno>
       <name>D</name>    
       <avg>85</avg>
@@ -36,7 +37,7 @@
       <mobile no="9849984921"/>  		   
       <distinction>YES</distinction> 
   </student>
-  <student eid="e">
+  <student>
       <regno>170028</regno>
       <name>E</name>    
       <avg>80</avg>
@@ -45,4 +46,4 @@
       <mobile no="9849984901"/>  		   
       <distinction>YES</distinction> 
   </student>
-</Students_info>
+</students_info>
