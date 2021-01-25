@@ -1,7 +1,12 @@
+package com.kl.insert;
+
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
+
+import com.klu.Bean.MarketBean;
+import com.klu.Connections.DBUtil;
 
 public class MarketDAO {
 	public int Insert(MarketBean sales) throws ClassNotFoundException, SQLException

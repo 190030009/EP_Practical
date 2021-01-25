@@ -1,4 +1,5 @@
-
+package com.klu.Bean;
+	
 public class MarketBean {
     private int itemid;
     public int getItemid() {
