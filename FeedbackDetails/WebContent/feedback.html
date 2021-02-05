@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<script type="text/javascript">
+function validation()
+{
+var r1=document.f1.r1.value;
+var r2=document.f1.r2.value;
+var r3=document.f1.r3.value;
+var r4=document.f1.r4.value;
+var r5=document.f1.r5.value;
+if(r1==null||r1=="")
+{
+alert("Fill all the fields");
+}
+if(r2==null||r2=="")
+{
+alert("Fill all the fields");
+}
+if(r3==null||r3=="")
+{
+alert("Fill all the fields");
+}
+if(r4==null||r4=="")
+{
+alert("Fill all the fields");
+}
+if(r5==null||r5=="")
+{
+alert("Fill all the fields");
+}
+}
+</script>
+<head>
+<meta charset="ISO-8859-1">
+
+<title>Feedback</title>
+</head>
+<body>
+<style>
+body{
+       background-color:black;
+           }
+ form {  
+   width: 30%;  
+   margin: 100px auto;  
+   background: white;  
+   padding: 5px 100px 5px 100px;   
+}
+input[type=text], input[type=password], input[type=email], input[type=number] { 
+        width: 100%; 
+        margin: 4px 0;
+        padding: 5px 20px; 
+        display: inline-block; 
+        border: 2px solid black; 
+        box-sizing: border-box; 
+    }
+button { 
+       background-color:black; 
+       width: 100%;
+        color: white; 
+        padding: 15px; 
+        margin: 10px 0px; 
+        border: none; 
+        cursor: pointer; 
+         } 
+</style>
+<form action="FeedbackInsert" method="post" onSubmit="validation()" name="f1">
+<div class="a">
+<h2>FeedBack form</h2>
+</div>
+<table align="center">
+<tr><td><h3>1. Was the class interesting:</h3></td></tr>
+<tr><td><textarea name="r1"  placeholder="100-150 words" rows="4" cols="50"></textarea><br></td></tr>
+
+<tr><td><h3>2. Was good at explaining things:</h3></td></tr>
+<tr><td><textarea name="r2"  placeholder="100-150 words" rows="4" cols="50"></textarea><br></td></tr>
+
+<tr><td><h3>3. Was teaching interactive:</h3></td></tr>
+<tr><td><textarea name="r3"  placeholder="100-150 words" rows="4" cols="50"></textarea><br></td></tr>
+
+<tr><td><h3>4. Was the language clear:</h3></td></tr>
+<tr><td><textarea name="r4"  placeholder="100-150 words" rows="4" cols="50"></textarea><br></td></tr>
+
+<tr><td><h3>Other Remarks:</h3></td></tr>
+<tr><td><textarea name="r5"  placeholder="100-150 words" rows="4" cols="50"></textarea><br></td></tr>
+<tr><td><input type="submit"></td></tr>
+<tr><td><input type="reset"></td></tr>
+</table>
+</form>
+</body>
+</html>

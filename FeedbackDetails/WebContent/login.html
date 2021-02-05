@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Login</title>
+<script>
+function validate()
+{
+var email=document.f1.email.value;
+var pswd=document.f1.pswd.value;
+var at = parseInt(email.indexOf('@'));
+var dot = parseInt(email.lastIndexOf('.'));
+if(pswd==null||pswd=="")
+{
+alert("Enter the password");
+}
+if(at==-1 || dot==-1)
+	alert("Enter valid email");
+	else if(dot > at && email[dot+2]!=null)
+	alert("Welcome");
+	else
+	alert("invalid email");
+}
+</script>
+</head>
+<body>
+<style>
+body{
+       background-color:black;
+           }
+ form {  
+   width: 15%;  
+   margin: 100px auto;  
+   background: white;
+   padding: 60px 120px 80px 120px;  
+}
+input[type=text], input[type=password], input[type=email] { 
+        width: 100%; 
+        margin: 8px 0;
+        padding: 12px 20px; 
+        display: inline-block; 
+        border: 2px solid black; 
+        box-sizing: border-box; 
+    }
+button { 
+       background-color:black; 
+       width: 100%;
+        color: white; 
+        padding: 15px; 
+        margin: 10px 0px; 
+        border: none; 
+        cursor: pointer; 
+         } 
+</style>
+<form method="get" action="LoginInsert" name="f1" onsubmit="validate()">
+<table align="center">
+<tr><td><h3>LOGIN</h3></td></tr>
+<tr><td>Email:</td></tr>
+          <tr><td>
+          <input type="email" placeholder="Enter Email" name="email"><br>
+          </td>
+           </tr>
+<tr><td>Password:</td></tr>
+       <tr><td>
+        <input type="password" placeholder="Enter Password" name="pswd"><br>
+       </td>
+</tr>
+<tr><td><button type="submit">Login</button><br>
+</table>
+</form>
+</body>
+</html>
